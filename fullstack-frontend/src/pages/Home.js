@@ -12,12 +12,12 @@ export default function Home() {
   }, []);
 
   const loadUsers = async () => {
-    const result = await axios.get("http://fullstack-backend-2wke.onrender.com/users");
+    const result = await axios.get("https://fullstack-backend-2wke.onrender.com/users");
     setUsers(result.data);
   };
 
   const deleteUser = async (id) => {
-    await axios.delete(`http://fullstack-backend-2wke.onrender.com/user/${id}`);
+    await axios.delete(`https://fullstack-backend-2wke.onrender.com/user/${id}`);
     loadUsers();
   };
 
