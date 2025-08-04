@@ -19,7 +19,7 @@ export default function AddUser() {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    await axios.post("http://fullstack-backend-2wke.onrender.com/user", user);
+    await axios.post("https://fullstack-backend-2wke.onrender.com/user", user);
     navigate("/");
   };
 
