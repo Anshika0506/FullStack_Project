@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 //@CrossOrigin("http://localhost:3000")
-@CrossOrigin("https://fullstackfrontend-two.vercel.app")
+@CrossOrigin("https://full-stack-project-o5nb.vercel.app")
 public class UserController {
 
     @Autowired
